@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b8ab3c7-cfee-4158-a9cb-9745ebed14d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/dataSources/47352f77-b023-4720-bafb-dc6d239931ff.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/dataSources/47352f77-b023-4720-bafb-dc6d239931ff/storage_v2/_src_/schema/demo_db.WoR8XA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/CodeFirst.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/CodeFirstApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/BillsPaymentSystem/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/BillsPaymentSystem/BillingDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/BillsPaymentSystem/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/BillsPaymentSystem/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/Gringotts/Gringotts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/SalesDatabase/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/SalesDatabase/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/SalesDatabase/Sale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/SalesDatabase/StoreLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/UniversitySystem/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/UniversitySystem/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/java/app/entities/UniversitySystem/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/META-INF/CodeFirst.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/app/CodeFirstApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/app/entities/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/app/entities/UniversitySystem/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/app/entities/UniversitySystem/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/CodeFirst/target/classes/app/entities/UniversitySystem/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/.idea/libraries/mysql_connector_java_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/src/main/java/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/ExerOne/src/main/java/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources/d87c6c9c-8c84-4749-b989-2ff8852a66b4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources/d87c6c9c-8c84-4749-b989-2ff8852a66b4/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources/d87c6c9c-8c84-4749-b989-2ff8852a66b4/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources/e5a4dfcb-8149-4ba9-b017-1a41928a6c16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources/e5a4dfcb-8149-4ba9-b017-1a41928a6c16/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/dataSources/e5a4dfcb-8149-4ba9-b017-1a41928a6c16/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/libraries/mysql_connector_java_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/SimpleDataRetrievalDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/out/production/SimpleDataRetrievalDemo/IntroDBSapi/Exc/InitialSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/out/production/SimpleDataRetrievalDemo/IntroDBSapi/Lab/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/out/production/SimpleDataRetrievalDemo/IntroDBSapi/Lab/com/company/MainForDiablo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/out/production/SimpleDataRetrievalDemo/META-INF/SimpleDataRetrievalDemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/out/production/SimpleDemo/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/src/IntroDBSapi/Exc/InitialSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/src/IntroDBSapi/Lab/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Demo/SimpleDataRetrievalDemo/src/IntroDBSapi/Lab/com/company/MainForDiablo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/IntroductionToDBApps.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/src/main/java/Homework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HibernateHomeworks/Homework_1/src/main/java/Main.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/BaseEntityWithName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Teams.java" />
+        <option value="$PROJECT_DIR$/../../../03. Introduction to Hibernate/src/main/java/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Team.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Continent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Country.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Town.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Position.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/MyKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/PlayerStatisticsEmbeddedKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/PlayerStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/PlayerStatistic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/round.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Round.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/CompetitionType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Competition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/ResultPrediction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/BetGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Bet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="45" />
+    <option name="width" value="1400" />
+    <option name="height" value="985" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Football Betting Database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football Betting Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Football Betting Database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football Betting Database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Football Betting Database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football Betting Database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Football Betting Database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football Betting Database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Football Betting Database" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football Betting Database" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Freeware Sys\Projects\Java DB\Hibernate\04. Hibernate code first\02. Hibernate code first - Exercise\06. Football Betting Database\src\main\resources\META-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Freeware Sys\Projects\Java DB\Hibernate\04. Hibernate code first\02. Hibernate code first - Exercise\06. Football Betting Database\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="06. Football Betting Database" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b8ab3c7-cfee-4158-a9cb-9745ebed14d1" name="Default Changelist" comment="" />
+      <created>1561314085706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561314085706</updated>
+      <workItem from="1561314087663" duration="7774000" />
+      <workItem from="1561361434397" duration="8384000" />
+      <workItem from="1561699926004" duration="142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16300000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15431164" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24895689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991655" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven-2 Build" order="5" />
+      <window_info anchor="right" id="Codota" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.16845638" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/BaseEntityWithName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4338475b-2135-4cf5-ba46-d45770778fd0/console.sql" />
+    <entry file="file://$PROJECT_DIR$/../../../03. Introduction to Hibernate/src/main/java/Engine.java" />
+    <entry file="das://4338475b-2135-4cf5-ba46-d45770778fd0/schema/football_betting_db/table/teams">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4338475b-2135-4cf5-ba46-d45770778fd0/schema/football_betting_db/table/colors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4338475b-2135-4cf5-ba46-d45770778fd0/schema/football_betting_db/table/towns">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/JoinColumn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Continent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/MyKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PlayerStatisticsEmbeddedKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Town.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Round.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2892#2893#0" expanded="true" />
+            <element signature="e#3124#3125#0" expanded="true" />
+            <element signature="e#3158#3159#0" expanded="true" />
+            <element signature="e#3217#3218#0" expanded="true" />
+            <element signature="e#3263#3264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/CompetitionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Competition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PlayerStatistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2107#2108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/BetGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/ResultPrediction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Bet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/4338475b-2135-4cf5-ba46-d45770778fd0.SCHEMA:football_betting_db">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>4338475b-2135-4cf5-ba46-d45770778fd0.SCHEMA:football_betting_db</OriginalElement>
+          <nodes>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.users</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.countries_continents</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.competitions</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.rounds</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.bet_games</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.result_predictions</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.competition_type</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.teams</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.games</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.bets</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.colors</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.player_statistics</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.towns</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.countries</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.continents</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.positions</node>
+            <node x="" y="">4338475b-2135-4cf5-ba46-d45770778fd0.TABLE:football_betting_db.players</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6797630799605132" x="820.0" y="643.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
